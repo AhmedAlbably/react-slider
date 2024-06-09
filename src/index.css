@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  overflow: hidden;
+  padding: 20px;
+  cursor: grab;
+}
+
+.inner-carousel {
+  display: flex;
+  gap: 30px;
+}
+
+.item {
+  min-height: 25rem;
+  min-width: 20rem;
+  padding: 10px;
+}
+
+.item img {
+  border-radius: 7px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 3px 3px 3px 3px rgba(9, 21, 24, 0.5);
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
